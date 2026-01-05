@@ -69,7 +69,12 @@
 <!-- HERO SECTION -->
 <div class="hero-section" id="inicio">
     
-        <!-- NOVO: SLIDER LISO (Fica atrás de tudo) -->
+
+    <div class="center-title">
+        <h1 class="main-title">𝑼𝑵𝑰𝑻</h1>
+        <span class="sub-title">Arquitetura de Soluções com Inteligência Artificial</span>
+    </div>
+    <!-- NOVO: SLIDER LISO (Fica atrás de tudo) -->
     <div class="slider-clean-container">
         <div class="clean-slide" style="background-image: url('assets/img/capaBaner.webp'); animation-delay: 0s;"></div>
         <div class="clean-slide" style="background-image: url('assets/img/slide1.webp'); animation-delay: 5s;"></div>
@@ -79,21 +84,22 @@
         <div class="clean-slide" style="background-image: url('assets/img/inova.webp');  animation-delay: 25s;"></div>
     </div>
 
-    <div class="center-title">
-        <h1 class="main-title">𝑼𝑵𝑰𝑻</h1>
-        <span class="sub-title">Arquitetura de Soluções com Inteligência Artificial</span>
-    </div>
-
-    <!-- CAMADA 3: VÍDEO (Só aparece no PC) -->
+    <!-- Vídeo de Fundo -->
     <video id="mainVideo" class="video-fullscreen" preload="auto" playsinline autoplay muted loop poster="assets/img/capaBaner.webp">
         <source src="assets/videos/apresentaçao.mp4" type="video/mp4" />
     </video>
+
+    <!-- Overlay com Botão -->
+    <div id="overlay" class="overlay">
+        <button id="startBtn" class="start-btn"><i class="fa-solid fa-graduation-cap"></i> Acessar UNIT Academy</button>
+    </div>
 
     <!-- Seta de Rolagem -->
     <a href="#sobre" class="scroll-down-arrow">
         <i class="fa-solid fa-angles-down"></i>
     </a>
 </div>
+
 
 <!-- SOBRE A UNIT -->
 <section class="about-unit" id="sobre">
@@ -507,4 +513,5 @@ window.addEventListener("load", function() {
 </script>
 
 </body>
+
 </html>
