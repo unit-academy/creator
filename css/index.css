@@ -546,11 +546,6 @@ ul { list-style: none; }
     .legal-links { justify-content: center; }
     .scroll-down-arrow { bottom: 30px; font-size: 1.5rem; }
 }
-/* Garante que o Texto e a Logo fiquem na frente do vídeo e do slider */
-.center-title, .logo-fixed, #overlay, .scroll-down-arrow, .start-btn {
-    z-index: 10; 
-    position: absolute;
-}
 
 /* --- SETA INDICATIVA DE SCROLL --- */
 .scroll-down-arrow {
